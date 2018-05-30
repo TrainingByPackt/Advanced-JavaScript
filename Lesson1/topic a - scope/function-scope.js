@@ -1,8 +1,14 @@
 // Function scope exercise
-// Assignment: Create and call a function. In the function, define two
-// additional functions call them at the end of the first function.
-// Denote the three scopes with a console.log. Then using a single variable name, define three
-// variables that are each scoped to different blocks. Assign different values to each and log the contents of each
+
+/*
+Assignment:
+Create a function that contains three distinct function scope blocks, not including the global scope.
+In each scope block:
+- Log which block we are in (ie block 1, block 2, or block 3)
+- Show that variable names can be redefined in each scope block
+- Assign a different value for each block
+- Log the new value
+*/
 
 // Solution
 function fn1(){
@@ -38,4 +44,5 @@ fn1();
 // - The three scope blocks are the original function's scope contained in the
 // {}, and the two scopes inside {} of the two new functions
 // - Create a variable in each scope block with the same name
+// - Assign different values to each variable
 // - Log the contents of each variable
