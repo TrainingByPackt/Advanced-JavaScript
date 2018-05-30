@@ -39,6 +39,12 @@ fn5 = function ( a ) {
   return { prop1: a };
 };
 
+console.log( fn1( 5, 10 ) );
+console.log( fn2( 5, 10 ) );
+console.log( fn3( 5 ) );
+console.log( fn4() );
+console.log( fn5( 5 ) );
+
 // Solutions
 
 // Function 1
@@ -67,8 +73,14 @@ fn4 = () => {
 // Function 5
 fn5 = ( a ) => ( { prop1: a } );
 
+console.log( fn1( 5, 10 ) );
+console.log( fn2( 5, 10 ) );
+console.log( fn3( 5 ) );
+console.log( fn4() );
+console.log( fn5( 5 ) );
+
 // Hints
-// - to convert to arrow functions remove the funciton keyword and add the fat arrow ( => )
-// - single argument input should not have parentheses around funtion arguments
+// - to convert to arrow functions remove the function keyword and add the fat arrow ( => )
+// - single argument input should not have parentheses around function arguments
 // - single line functions will return the expression on the single line and do not need {}
-// - to return an object literal on a single line, it must be surounded with parentheses
+// - to return an object literal on a single line, it must be surrounded with parentheses
