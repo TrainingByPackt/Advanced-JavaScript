@@ -23,7 +23,7 @@ function fn1(){
 
   function fn3(){
     console.log('Scope 3');
-    let scope = 'a third scope5';
+    let scope = 'a third scope';
     console.log(scope);
 
   }
