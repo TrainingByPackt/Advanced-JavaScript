@@ -1,0 +1,1 @@
+{"version":3,"sources":["transpile.js"],"names":[],"mappings":";;AAAA,IAAM,OAAO,SAAP,IAAO;AAAA,SAAO,MAAM,CAAb;AAAA,CAAb;AACA,QAAQ,GAAR,CAAa,KAAM,EAAN,CAAb","file":"app.transpiled.js","sourcesContent":["const sum5 = num => num + 5;\r\nconsole.log( sum5( 10 ) );"]}
