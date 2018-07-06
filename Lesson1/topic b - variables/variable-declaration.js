@@ -1,9 +1,6 @@
 // Variable Declaration exercise
 
-// Assignment: Define a variable that will be hoisted, and log the contents of the variable before and after assignment.
-// Then create two more variables that are not hoisted, one of which should be a constant. Show that these variables are not hoisted.
-// Then show that the const variable cannot be reassiged but that properties can be modified. Log the before and after state
-// of each variable. If the state cannot be logged then log the error produced
+// Assignment: You are onboarding a new hire to your team. The new hire does not understand the differences between var, let, and const. Write a program to outline the differences in variable hoisting and variable reassignment between the three variable declaration keywords.
 
 // Solution
 

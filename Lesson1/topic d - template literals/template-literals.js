@@ -2,18 +2,12 @@
 
 /*
  Assignment:
- Create a function that takes in an object representing a house with the parameters address,
- floors, price, and owner. Have the function return an object literal that prints the
- parameters in order on separate lines using a single object literal and without using any
- escape characters.
+ You are building a website for a real estate company. You must build a function that takes in an object with a property information and returns a formatted string that states the property owner, where the property is located (address), and how much they are selling it for (price)
 */
 
 // Solution
-function parseHouse( house ) {
-  return `address: ${house.address}
-floors: ${house.floors}
-price: ${house.price}
-owner: ${house.owner}`
+function parseHouse( property ) {
+  return `${property.owner} is selling the property at ${property.address} for ${property.price} USD`
 }
 
 const house = {

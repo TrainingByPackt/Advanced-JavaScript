@@ -2,12 +2,7 @@
 
 /*
 Assignment:
-Create a function that contains three distinct block scope blocks, not including the global scope.
-In each scope block:
-- Log which block we are in (ie block 1, block 2, or block 3)
-- Show that variable names can be redefined in each scope block
-- Assign a different value for each block
-- Log the new value
+You are writing an event handler function that reuses variable identifier names and therefore needs to take advantage of JavaScript block scope. Create a function with three distinct scope blocks, not including the global scope.
 */
 
 // Solution

@@ -1,6 +1,6 @@
 // Arrow functions exercises
 
-// Assignment: convert the following functions to arrow functions in the simplest form.
+// Assignment:Your team is upgrading from ES5 to ES6. You must convert the provided standard JavaScript functions into ES6 syntax.
 // Function bodies do not need to be simplified. Just declaration method.
 
 let fn1;
