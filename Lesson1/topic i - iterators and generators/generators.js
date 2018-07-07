@@ -2,10 +2,7 @@
 
 /*
 Assignment:
-Create a generator that produces the fibonacci sequence (xn=xn-1+xn-2). If a truthy value
-is passed into the generator via next, then restart the sequence from seed n1=1 n0=0. If
-the value is over 10 then end generation. Start the sequence with the first two numbers
-(1 and 0) already saved in state.
+You have been tasked to build a simple app that generates numbers in the Fibonacci sequence upon request. The app generates the next number in the sequence for each request, and resets the sequence it is given an input. Use a generator to generate the Fibonacci sequence. If a value is passed into the generator, reset the sequence.
  */
 
 // Solution

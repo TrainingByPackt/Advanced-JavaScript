@@ -2,27 +2,30 @@
 
 /*
   Assignment:
-  Create a function that takes in 5 inputs ( arg1, arg2, arg3, arg4, arg5 ) and returns
-  an object. The function should create the object using ES6 syntax. The object should
-  have a property created from arg1,  a function property called getArg2 that returns arg2,
-  and a computed property that is the concatenation of arg3 and arg4. The value for the
-  final property should be arg5.
+  You are building a simple JavaScript math package to publish to Node Package Manager (NPM). Your module will export an object that contains several constants and functions. Using ES6 syntax, create the export object with the following functions and values: the value of pi, the ratio to convert inches to feet, a function that sums two arguments, and a function that subtracts two arguments. Log the object after it has been created.
  */
 
-// Solution
-function buildObject( arg1, arg2, arg3, arg4, arg5 ) {
-  return {
-    arg1,
-    getArg2() {
-      return arg2
-    },
-    [ arg3 + arg4 ]: arg5
-  };
+const PI = 3.1415;
+const INCHES_TO_FEET = 0.083333;
+function sum( n1, n2 ) {
+  return n1 + n2;
+}
+function subtract( n1, n2 ) {
+  return n1 - n2;
 }
 
-console.log(
-  buildObject( 'arg1', 'arg2', 'arg3', 'arg4', 'arg5' )
-);
+// Solution
+const exportObject = {
+  PI,
+  INCHES_TO_FEET,
+  sum( n1, n2 ) {
+    return n1 + n2;
+  },
+  subtract( n1, n2 ) {
+    return n1 - n2;
+  }
+};
+console.log( exportObject );
 
 /*
 Hints

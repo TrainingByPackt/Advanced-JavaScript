@@ -2,41 +2,31 @@
 
 /*
 Assignment
-Create a class for a vehicle. The class should take in the number of wheels and max speed
-and save them to the this scope. The class should have getter functions for num wheels and
-max speed. Then create a subclass Car that extends vehicle. Car takes in a brand and max
-speed. Car needs to set num wheels to 4 internally without referencing the variable.
-Instantiate the subclass Car and log the output of the two getter functions.
+You have been hired by a car sales company to design their sales website. You must create a vehicle class to store care information. The class must take in the car make, model, year, and color. The car should have a method to change the color. To test the class, create an instance that is a grey (color) 2005 (year) Subaru (make) Outback (model). Log the car’s variables then change the car’s color and log the new color.
  */
 
 // Solution
 
-class Vehicle {
-  constructor( wheels, maxSpeed ) {
-    this.wheels = wheels;
-    this.maxSpeed = maxSpeed;
+class Car {
+  constructor( make, model, year, color ) {
+    this.make = make;
+    this.model = model;
+    this.year = year;
+    this.color = color;
   }
 
-  getWheels() {
-    return this.wheels;
-  }
-
-  getMaxSpeed() {
-    return this.maxSpeed;
+  setColor( color ) {
+    this.color = color;
   }
 }
 
-class Car extends Vehicle {
-  constructor( brand, maxSpeed ) {
-    super( 4, maxSpeed );
-    this.brand = brand;
-  }
-}
-
-let subaru = new Car( 'subaru', 180 );
-
-console.log( subaru.getWheels() );
-console.log( subaru.getMaxSpeed() );
+let subaru = new Car( 'Subaru', 'Outback', 2005, 'Grey' );
+console.log( 'Make',subaru.make );
+console.log( 'Model', subaru.model );
+console.log( 'Year', subaru.year );
+console.log( 'Color', subaru.color );
+subaru.setColor( 'Red' );
+console.log( 'New color:', subaru.color );
 
 /*
 Hints

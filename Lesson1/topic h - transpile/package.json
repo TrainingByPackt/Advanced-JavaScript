@@ -4,7 +4,7 @@
   "description": "Babel example",
   "main": "app.js",
   "scripts": {
-    "transpile": "babel .app.js --out-file app.transpiled.js --source-maps"
+    "transpile": "babel ./app.js --out-file app.transpiled.js --source-maps"
   },
   "author": "Zachary Shute <cosmonot1@gmail.com>",
   "license": "ISC",
