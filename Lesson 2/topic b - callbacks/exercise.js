@@ -2,12 +2,7 @@
 
 /* Assignment:
 
-Write a higher order function that takes in a data argument and a callback. In the higher
-order function, validate the callback, log the data argument then call the callback after
-an asynchronous delay. First call the higher order function with an arbitrary data value
-and a nonexistent callback function. Then call the higher order function with an arbitrary
-data value and a callback function that logs to the console when called. Catch and log any
-errors for each call of the function.
+Your team is building an API that is based around callbacks. To prevent runtime errors, you need to validate that the callback argument passed into the callback API funcatiobs are valid callable functions. Create a function for your API. In the body of that function, validate that the callback argument is a function. If it is not a function, throw an error. After a delay, log the data passed into the API function and call the callback.
 
  */
 
