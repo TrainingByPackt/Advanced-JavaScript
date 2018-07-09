@@ -2,10 +2,8 @@
 
 /* Assignment:
 
-Write a function that takes in a data argument and returns a promise. In the promise, log
-the data argument. The promise should reject with an error if the data argument is a number,
-otherwise it should resolve. First call the function with a numerical value and then a non
-numerical value. Log the rejection error or promise resolution.
+You are building a promise based API. In your API, you must validate user input to ensure data passed into your database models is of the right type. Write a function that returns a promise. This promise should validate that the data value passed into the API function is not a number. If the user passes a number into the function, reject the promise with an error. If the user passes a non number into the API function, resolve the promise with the word “Success!”
+
 
  */
 
