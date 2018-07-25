@@ -1,0 +1,83 @@
+<html>
+<head>
+  <title>Professional JavaScript - Lesson 3 - Activity A </title>
+  <script>
+    const data = [
+      {
+        from: 'Zach',
+        to: 'Tim',
+        subject: 'Hello',
+        body: 'Nice to meet you Tim. Looking forward to discussing business next week.'
+      },
+      {
+        from: 'Kirsten',
+        to: 'Tim',
+        subject: 'Car for sale',
+        body: 'I saw that you are selling your car. I am intersted.'
+      },
+      {
+        from: 'Jessica',
+        to: 'Tim',
+        subject: 'Code review',
+        body: 'When will you finish the code review? The deadline for our application is next week and we are behind schedule.'
+      },
+      {
+        from: 'Walter',
+        to: 'Tim',
+        subject: 'Donations',
+        body: 'Thank you for your generous donation. Can you please send me your address? We are sending our top 5 donors thank you placards.'
+      },
+      {
+        from: 'Tristain',
+        to: 'Tim',
+        subject: 'Birthday party',
+        body: 'We should plan our sister\'s surprise birthday party soon. Venues tend will start getting booked over the next two weeks.'
+      }
+    ]
+  </script>
+</head>
+<body>
+  <div id="emailTableHolder"></div>
+  <script>
+
+    // Create table
+    const table = document.createElement( 'table' );
+
+    // Create headers
+    {
+      const headers = [ 'to', 'from', 'subject' ];
+      const row = document.createElement( 'tr' );
+      headers.forEach( h => {
+        const header = document.createElement( 'th' );
+        header.appendChild( document.createTextNode( h.charAt( 0 ).toUpperCase() + h.substr( 1 ) ) );
+        row.appendChild( header );
+      } );
+      table.appendChild( row );
+    }
+
+    // Create row for each email
+    {
+      data.forEach( email => {
+        const row = document.createElement( 'tr' );
+        const to = document.createElement( 'td' );
+        const from = document.createElement( 'td' );
+        const subject = document.createElement( 'td' );
+
+        to.appendChild( document.createTextNode( email.to ) );
+        from.appendChild( document.createTextNode( email.from ) );
+        subject.appendChild( document.createTextNode( email.subject ) );
+
+        row.appendChild(to);
+        row.appendChild(from);
+        row.appendChild(subject);
+
+        table.appendChild( row );
+      } );
+    }
+
+    // Append table to document
+    document.getElementById( 'emailTableHolder' ).appendChild( table );
+
+  </script>
+</body>
+</html>
