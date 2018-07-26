@@ -1,0 +1,58 @@
+<!---->
+<!--Scenario: You are building a shopping list page to help busy shoppers manage shopping lists without pencil and paper. Our shopping list application will be a page with a table, a text input, and an add row button. The add row button will add a new row to the shopping list table. The rows added have the shopping list item (text from the text input) and a remove button. The remove button will remove that row from the shopping list table.-->
+<!---->
+
+<!--Starting file-->
+<html>
+<head>
+  <title>Professional JavaScript - Lesson 3 - Activity B </title>
+</head>
+<body>
+  <h1>Shopping List</h1>
+  <div id="userInteractionHolder">
+    Item to add:<input type="text" name="Item name">
+    <button id="addButton" type="button">Add!</button>
+  </div>
+
+  <div id="shoppingListHolder">
+    <table id="shoppingList">
+      <tr>
+        <th>Item</th>
+        <th>Remove</th>
+      </tr>
+    </table>
+  </div>
+  <script>
+    document.getElementById( 'addButton' ).addEventListener( 'click', _addRow );
+
+    function _addRow( e ) {
+      const inputBox = e.target.previousSibling.previousSibling;
+      const value = inputBox.value;
+      inputBox.value = '';
+
+      const row = document.createElement( 'tr' );
+
+      // Add list item name
+      row.appendChild( document.createElement( 'td' ) )
+        .appendChild( document.createTextNode( value ) );
+
+      // Add remove button
+      row.appendChild( document.createElement( 'td' ) )
+        .appendChild( document.createElement( 'button' ) )
+        .appendChild( document.createTextNode( 'Remove' ) )
+        .parentNode
+        .addEventListener( 'click', _removeRow );
+
+      document.getElementById( 'shoppingList' ).appendChild( row );
+
+    }
+
+    function _removeRow( e ) {
+      const row = e.target.parentNode.parentNode;
+      console.log(row);
+      row.parentNode.removeChild( row )
+    }
+
+  </script>
+</body>
+</html>
