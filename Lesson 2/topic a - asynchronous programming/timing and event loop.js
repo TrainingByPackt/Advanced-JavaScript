@@ -50,49 +50,42 @@ heap: <empty>
 step 1
 stack: <gobal>, setTimeout( f1, 105 );
 queue: <empty>
-heap: setTimeout( f1, 105 )
+heap: <empty>
 
 step 2
 stack: <gobal>, setTimeout( f2, 15 );
 queue: <empty>
-heap: setTimeout( f1, 105 ), setTimeout( f2, 15 )
+heap: setTimeout( f1, 105 )
 
 step 3
 stack: <gobal>, setTimeout( f3, 10 );
 queue: <empty>
-heap: setTimeout( f1, 105 ), setTimeout( f2, 15 ), setTimeout( f3, 10 )
+heap: setTimeout( f1, 105 ), setTimeout( f2, 15 )
 
 step 4
 stack: <gobal>, setTimeout( f4, 100 );
 queue: <empty>
-heap: setTimeout( f1, 105 ), setTimeout( f2, 15 ), setTimeout( f3, 10 ), setTimeout( f4, 100 )
+heap: setTimeout( f1, 105 ), setTimeout( f2, 15 ), setTimeout( f3, 10 )
 
 step 5
-stack: <gobal>
-queue: <empty>
-heap: setTimeout( f1, 105 ), setTimeout( f2, 15 ), setTimeout( f3, 10 ), setTimeout( f4, 100 )
-
-// timing break while timeouts are waiting
-
-step 6
 stack: <gobal>
 queue: { event: timeout, handler: f3 }
 heap: setTimeout( f1, 105 ), setTimeout( f2, 15 ), setTimeout( f4, 100 )
 
-step 7
+step 6
 stack: <gobal>, f3
 queue: <empty>
 heap: setTimeout( f1, 105 ), setTimeout( f2, 15 ), setTimeout( f4, 100 )
 
-step 8
+step 7
 stack: <gobal>, f3, console.log( 'f3' )
 queue: <empty>
 heap: setTimeout( f1, 105 ), setTimeout( f2, 15 ), setTimeout( f4, 100 )
 
-step 9
+step 8
 stack: <gobal>, f3, setTimeout( f5, 90)
 queue: <empty>
-heap: setTimeout( f1, 105 ), setTimeout( f2, 15 ), setTimeout( f4, 100 ), setTimeout( f5, 90)
+heap: setTimeout( f1, 105 ), setTimeout( f2, 15 ), setTimeout( f4, 100 )
 
  */
 
