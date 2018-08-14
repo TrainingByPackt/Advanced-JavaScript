@@ -51,9 +51,7 @@
 
       $( '#toggle' ).on( 'click', e => {
         e.stopPropagation();
-        $( '#button1' ).trigger( 'click' );
-        $( '#button2' ).trigger( 'click' );
-        $( '#button3' ).trigger( 'click' );
+        $( '.lightButton' ).trigger( 'click' );
       } );
 
     } )
