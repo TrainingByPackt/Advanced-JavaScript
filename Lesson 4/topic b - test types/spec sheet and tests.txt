@@ -1,0 +1,32 @@
+Requirements:
+- text input for name
+- text input for email
+- text input for age
+- submit button
+- name must be at least 1 character
+- name cannot be more than 50 characters
+- email must be at least 1 character
+- email cannot be more than 50 characters
+- age must be a number
+- age must be at least 13
+
+Tests:
+- text input for name exists
+- text input for email exists
+- text input for age exists
+- submit button exists
+- submit button on click calls validate function
+- test empty name field
+- test name field with 1 character
+- test name field with 50 characters
+- test name field with 51 characters
+- test empty email field
+- test email field with 1 character
+- test email field with 50 characters
+- test email field with 51 characters
+- test empty age field
+- test age field with non numeric input
+- test age field with value less than 13
+- test age field with value of 13
+- test age field with value greater than 13
+- test with valid data to ensure info is printed to console
