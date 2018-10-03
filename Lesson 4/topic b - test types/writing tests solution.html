@@ -1,0 +1,43 @@
+<body>
+
+  <input type="text" id="name" value="Name">
+  <input type="text" id="email" value="Email">
+  <input type="text" id="age" value="Age">
+
+  <button onclick="validate()">Submit</button>
+
+  <script>
+
+    function validate() {
+
+      const name = document.getElementById( 'name' ).value;
+      const email = document.getElementById( 'email' ).value;
+      const age = parseInt( document.getElementById( 'age' ).value, 10 );
+
+      if ( !name ) {
+        throw new Error( 'Must provide a name.' );
+      } else if ( name.length <= 0 || name.length > 50 ) {
+        throw new Error( 'Name must be between 1 and 50 characters.' );
+      }
+
+      if ( !email ) {
+        throw new Error( 'Must provide an email.' );
+      } else if ( email.length <= 0 || email.length > 50 ) {
+        throw new Error( 'Email must be between 1 and 50 characters.' );
+      }
+
+      // Note: You don't need isNaN() check because NaN evaluates to boolean false. !age covers that test
+      if ( !age ) {
+        throw new Error( 'Must provide an age that is also a number.' );
+      } else if ( age < 13 ) {
+        throw new Error( 'Age must be at least 13.' );
+      }
+
+      console.log( `User details:
+      Name: ${name}
+      Email: ${email}
+      Age: ${age}` )
+
+    }
+  </script>
+</body>
