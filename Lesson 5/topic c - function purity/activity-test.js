@@ -3,7 +3,7 @@
 // Write addItem function here
 function addItem() {}
 
-// Run this code to test your addItem function
+// Run this code to test your addItem function. If an error is thrown then the code is not correct
 const cart = [ 'soap', 'toothpaste', 'toothpaste' ];
 const originalLength = cart.length;
 const quantityToAdd = 3;
