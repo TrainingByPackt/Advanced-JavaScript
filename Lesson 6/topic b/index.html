@@ -24,7 +24,6 @@
         }
       };
 
-      console.log( note.value );
       xhttp.open( "POST", "/save", true );
       xhttp.setRequestHeader( 'Content-Type', 'application/json;charset=UTF-8' );
       xhttp.send( JSON.stringify( note.value ) );
@@ -41,11 +40,9 @@
         if ( this.status !== 200 ) {
           return console.error( 'Failed to load note!' );
         }
-        console.log( this.response );
         note.value = JSON.parse( this.response );
       };
 
-      console.log( note.value );
       xhttp.open( "GET", "/load", true );
       xhttp.send();
     }
