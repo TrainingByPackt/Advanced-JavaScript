@@ -87,6 +87,11 @@ stack: <gobal>, f3, setTimeout( f5, 90)
 queue: <empty>
 heap: setTimeout( f1, 105 ), setTimeout( f2, 15 ), setTimeout( f4, 100 )
 
+step 9
+stack: <gobal>, f3
+queue: <empty>
+heap: setTimeout( f1, 105 ), setTimeout( f2, 15 ), setTimeout( f4, 100 ), setTimeout( f5, 90)
+
  */
 
 /* Hints
