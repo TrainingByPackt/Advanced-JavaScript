@@ -16,3 +16,5 @@ if ( cart.length !== originalLength ) {
 if ( cartModified.length !== ( originalLength + quantityToAdd ) ) {
   throw new Error( 'Did not add items to the new cart' );
 }
+
+console.log('No function purity error!');
