@@ -4,7 +4,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/TrainingByPackt/Professional-JavaScript/pulls)
 
 # Professional JavaScript
-In this course, you will gain a deep understanding of JavaScript. You will learn how to write JavaScript in a professional environment using the new JavaScript syntax in ES6, leverage on JavaScript’s asynchronous nature using callbacks and promises, and understand how to set up test suites and test your code. You will be introduced to JavaScript’s functional programming style and you will apply everything learned to build a simple application in various JavaScript frameworks and libraries for backend, frontend, and mobile developments.
+In this course, you will gain a deep understanding of JavaScript. You will learn how to write JavaScript in a professional environment using the new JavaScript syntax in ES6, leverage on JavaScript's asynchronous nature using callbacks and promises, and understand how to set up test suites and test your code. You will be introduced to JavaScript's functional programming style and you will apply everything learned to build a simple application in various JavaScript frameworks and libraries for backend, frontend, and mobile developments.
 
 Professional JavaScript by **Zachary Shute**
 
@@ -29,6 +29,6 @@ For an optimal student experience, we recommend the following hardware configura
 * **Storage**: 35GB available space
 
 ### Software Requirements
-You’ll also need the following software installed in advance:
+You'll also need the following software installed in advance:
 * **OS**: Windows 7 SP1 64-bit, Windows 8.1 64-bit or Windows 10 64-bit
 * **Browser**: Google Chrome, Latest Version

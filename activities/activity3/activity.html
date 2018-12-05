@@ -1,0 +1,61 @@
+<html>
+<body>
+  <style>
+
+    .light {
+      width: 100px;
+      height: 100px;
+      background-color: white;
+    }
+
+  </style>
+
+  <div>
+
+    <button id="toggle">Toggle!</button>
+
+    <div id="lights">
+      <div>
+        <div class="light"></div>
+        <button id="button1" class="lightButton">Light 1</button>
+      </div>
+
+      <div>
+        <div class="light"></div>
+        <button id="button2" class="lightButton">Light 2</button>
+      </div>
+
+      <div>
+        <div class="light"></div>
+        <button id="button3" class="lightButton">Light 3</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="./node_modules/jquery/dist/jquery.js"></script>
+
+  <script>
+    $( () => {
+
+      $( '.lightButton' ).on( 'click', e => {
+        e.stopPropagation();
+        const element = $( e.target ).prev();
+        if ( element.attr( 'lit' ) !== 'true' ) {
+          element.attr( 'lit', 'true' );
+          element.css( 'background-color', 'black' );
+        } else {
+          element.attr( 'lit', 'false' );
+          element.css( 'background-color', 'white' );
+        }
+      } );
+
+      $( '#toggle' ).on( 'click', e => {
+        e.stopPropagation();
+        $( '.lightButton' ).trigger( 'click' );
+      } );
+
+    } )
+  </script>
+
+</body>
+</html>

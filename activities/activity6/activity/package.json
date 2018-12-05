@@ -1,0 +1,24 @@
+{
+  "name": "lesson-6-topic-b",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-scripts": "^2.1.1"
+  },
+  "scripts": {
+    "build": "npx babel src -d lib --presets react-app/prod",
+    "start": "node ./index.js"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

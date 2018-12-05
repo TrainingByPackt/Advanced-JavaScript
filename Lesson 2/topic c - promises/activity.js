@@ -2,7 +2,7 @@
 
 /* Assignment:
 
-You are building a promise based API. In your API, you must validate user input to ensure data passed into your database models is of the right type. Write a function that returns a promise. This promise should validate that the data value passed into the API function is not a number. If the user passes a number into the function, reject the promise with an error. If the user passes a non number into the API function, resolve the promise with the word “Success!”
+You are building a promise based API. In your API, you must validate user input to ensure data passed into your database models is of the right type. Write a function that returns a promise. This promise should validate that the data value passed into the API function is not a number. If the user passes a number into the function, reject the promise with an error. If the user passes a non number into the API function, resolve the promise with the word 'Success!'
 
 
  */
