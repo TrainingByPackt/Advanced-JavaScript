@@ -1,4 +1,4 @@
-apiFunction( args, callback ){
+function apiFunction( args, callback ){
   if ( !callback || !( typeof callback === 'function' ) ){
     throw new Error( 'Invalid callback. Provide a function.' );
   }

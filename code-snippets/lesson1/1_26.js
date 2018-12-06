@@ -4,7 +4,7 @@ function computeNameType( type ) {
 }
 
 const person = {
-  [ varName + 'Name' ] = 'John',
+  [ varName + 'Name' ]: 'John',
 [ computeNameType( 'last' ) ]: 'Smith'
 };
 

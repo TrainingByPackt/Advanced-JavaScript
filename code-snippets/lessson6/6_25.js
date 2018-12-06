@@ -1,4 +1,4 @@
-app.get( '/' ( req, res ) => {
+app.get( '/', ( req, res ) => {
 throw new Error( 'OH NO AN ERROR!' );
 } );
 app.use( ( err, req, res, next ) => {
