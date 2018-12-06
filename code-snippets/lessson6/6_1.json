@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "amqplib": "^0.5.2",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "uuid": "^3.3.2"
+  }
+}
