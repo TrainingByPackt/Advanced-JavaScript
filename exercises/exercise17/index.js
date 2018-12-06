@@ -1,6 +1,5 @@
 'use strict';
 
-// Activity 1:
 // You are trying to better understand why events in your program are being fired and handled. Looking at the program provided below, without running the program, write out the expected output of the program. Then, for the first 10 steps of the program, write the expected stack, queue, and heap at each step. Begin with the starting step specified below.
 
 function f1() {

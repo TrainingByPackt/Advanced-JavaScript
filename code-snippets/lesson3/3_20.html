@@ -1,0 +1,9 @@
+<script>
+  $( '#myList' )
+  .find( '.boosted' ) // Finds descendents with the .boosted class
+  .eq( 3 ) // Select the third index of the <li> filtered list
+    .css( 'background-color', 'red' ) // Set css
+  .end() // Restore selection to .boosted items in #myList
+    .eq( 0 )
+    .attr( 'age', 23 );
+</script>

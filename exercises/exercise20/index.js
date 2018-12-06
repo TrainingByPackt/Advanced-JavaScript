@@ -35,18 +35,4 @@ promiseFunction( 'test' ).then( console.log ).catch( err => console.log( `Error:
 Error: Data cannot be of type 'number'.
 test
 Success!
-
- */
-
-/* Hits:
-
-- create a function that takes in an argument and returns a promise
-- the promise should start a timeout
-- inside the timeout log data
-- check te type of data, error if it is a number
-- resolve otherwise
-- call the function with the arguments 1 and test
-- the function returns a promise, attach the then and catch handlers to the function output
-- if your code is logging an extra line or 2 that says 'undefined', double check the promise handler functions
-- should only have one then each and the then should come before the catch
- */
+*/

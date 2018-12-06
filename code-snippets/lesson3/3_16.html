@@ -1,0 +1,8 @@
+<script>
+  const event = new MouseEvent( 'click' , {
+bubbles:true,
+cancelable: true
+} );
+const element = document.getElementById( 'button' );
+const canceled = element.dispatchEvent(event);
+</script>

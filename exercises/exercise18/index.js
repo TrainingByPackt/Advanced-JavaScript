@@ -37,8 +37,3 @@ Callback Called!
 
  */
 // Note: student solutions may vary slightly depending on their input
-
-/* Hints:
-- Validate the callback with the code example given in the slides or text book
--
- */
