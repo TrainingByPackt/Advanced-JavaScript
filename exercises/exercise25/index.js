@@ -32,15 +32,3 @@ test( fibonacci( 2 ), 2 );
 test( fibonacci( 5 ), 8 );
 test( fibonacci( 7 ), 21 );
 test( fibonacci( 9 ), 55 );
-
-/*
-Hints
-- Create a the fibonacci series with a recursive function
-- Write a testing function
-- Repeat the following steps for all test conditions (n=0, n=1, n=2, n=5, n=7, n=9)
--- Write the test for the condition
--- Run the tests
--- If tests pass go to next test condition, otherwise continue
--- Write code to fix the bug
--- Run tests and repeat
- */
