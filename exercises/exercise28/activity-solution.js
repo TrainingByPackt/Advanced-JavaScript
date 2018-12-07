@@ -10,18 +10,3 @@ function addItem( cart, item, quantity ) {
   newCart.push( ...Array( quantity ).fill( item ) );
   return newCart;
 }
-
-/* Hints:
-- Create a function called addItem
-  - Takes in three parameters, the cart array, the item to add, and the quantity to add
-- Duplicate the cart to prevent side effects
-  - Use JSON operations for simplest duplication JSON.parse( JSON.stringify( cart ) )
-  - Can also step through original cart array with a loop and push each item to new array
-  - Can also use cart.map( () => {} ) since all items in array are simple types
-  - Can also use rest/spread operator newCart= [ ...cart ] because all items are simple types
-- Push the new items to the new cart array
-  - Use a for loop
-  - Use rest/spread operator and Array constructor with Array.fill()
-- Return the new cart array
-
- */

@@ -54,26 +54,3 @@ server.listen( port, err => {
 
   console.log( `Listening on port ${port}` );
 } );
-
-/* Hints:
- - Create a basic HTTP express server
- - Use the body-parser middleware to parse JSON request bodies
- -- Install with npm install body-parser -s
- -- Import it with require('body-parser')
- -- Use it in strict:false mode to parse non object/array bodies
- -- Add it to express with app.use( require('body-parser).json({strict:false}));
- - Add a route for the base route that sends the index.html file
- -- Use the res.sendFile() to send a file
- - Add a route for the /save route that accepts in a post request
- -- Add a handler for app.post('/save', … )
- -- In the handler save the request body to the note on disk
- --- fs.writeFile
- - Add a route for the /load route that accepts a get request
- -- Add a handler for app.get('/load', … )
- -- In the handler read the note file
- --- fs.readFile
- -- Return the read data as JSON
- --- res.json( fileData )
- - Set the server up to listen on the correct port and hostname
- -- server.listen( port, hostname, callback )
- */
