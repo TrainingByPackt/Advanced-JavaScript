@@ -12,14 +12,13 @@ Professional JavaScript by **Zachary Shute**
 *	Describe Understand major features in ES6 and implement learn how to apply these features to build variousin practical applications
 * Create your own Promises to handle asynchronous processes, and decide the plan of actionwhat to do upon completion using Callbacks
 *	Develop Aasynchronous flows using Promise chaining, combining varying asynchronous tasks in a sequential order
-*	Learn to mManipulate the DOM with JavaScript
-*	Learn to hHandle JavaScript browser events
-*	Configure JavaScript linting and TDD setup, 
-*	cCreate programs that follow the TDD pattern
-*	List the Bbenefits and drawbacks of functional programming compared to other styles 
-*	ExplainUnderstand function composition and function sequencing in depth
-*	Learn to sSet up and use the backend framework Nodejs,
-*	Learn to set up and use the frontend framework React, Learn to set up and use the mobile framework Expo.io
+*	Learn to Manipulate the DOM with JavaScript
+*	Learn to Handle JavaScript browser events
+*	Create programs that follow the TDD pattern
+*	List the Benefits and drawbacks of functional programming compared to other styles 
+*	Understand function composition and function sequencing in depth
+*	Learn to Set up and use the backend framework Nodejs,
+*	Learn to Set up and use the frontend framework React
 
 
 ### Hardware Requirements
