@@ -17,7 +17,7 @@ Advanced JavaScript by **Zachary Shute**
 *	Create programs that follow the TDD pattern
 *	List the Benefits and drawbacks of functional programming compared to other styles 
 *	Understand function composition and function sequencing in depth
-*	Learn to Set up and use the backend framework Nodejs,
+*	Learn to Set up and use the backend framework Node.js
 *	Learn to Set up and use the frontend framework React
 
 
