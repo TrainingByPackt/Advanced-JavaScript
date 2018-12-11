@@ -3,10 +3,10 @@
 [![GitHub stars](https://img.shields.io/github/stars/TrainingByPackt/Professional-JavaScript.svg)](https://github.com/TrainingByPackt/Professional-JavaScript/stargazers)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/TrainingByPackt/Professional-JavaScript/pulls)
 
-# Professional JavaScript
+# Advanced JavaScript
 In this course, you will gain a deep understanding of JavaScript. You will learn how to write JavaScript in a professional environment using the new JavaScript syntax in ES6, leverage on JavaScript's asynchronous nature using callbacks and promises, and understand how to set up test suites and test your code. You will be introduced to JavaScript's functional programming style and you will apply everything learned to build a simple application in various JavaScript frameworks and libraries for backend, frontend, and mobile developments.
 
-Professional JavaScript by **Zachary Shute**
+Advanced JavaScript by **Zachary Shute**
 
 ## What you will learn
 *	Describe Understand major features in ES6 and implement learn how to apply these features to build variousin practical applications
