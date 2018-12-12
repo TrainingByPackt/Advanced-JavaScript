@@ -17,7 +17,7 @@ try{
   console.log('Not hoisted2 with error:', err.message);
 }
 const notHoisted2 = [1,2,3];
-console.log('notHoisted1 after assignment', notHoisted2);
+console.log('notHoisted2 after assignment', notHoisted2);
 
 try{
   notHoisted2 = 'new value';
