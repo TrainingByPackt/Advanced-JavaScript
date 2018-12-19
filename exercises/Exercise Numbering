@@ -37,7 +37,9 @@ Activity 3: Implementing jQuery
 **Lesson Four -Testing JavaScript**
 
 Exercise 25: Applying Test Driven Development
-Exercise 26: Writing Tests
+Exercise 26: Building Unit Tests
+Exercise 27: Writing Tests
+Exercise 28: Setting Up Mocha
 Activity 4: Utilizing Test Environments
 
 **Lesson Five - Functional Programming**

@@ -1,0 +1,11 @@
+{
+  "name": "testing-frameworks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test.js"
+  },
+  "author": "Zachary Shute <cosmonot1@gmail.com>",
+  "license": "MIT"
+}
