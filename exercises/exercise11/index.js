@@ -9,5 +9,12 @@ const courseCatalogMetadata = [
     } ]
   }
 ];
-let [ { texts: [ { ISBN } ] } ] = courseCatalogMetadata;
+const [ course ] = courseCatalogMetadata;
+const [ { texts: textbooks } ] = courseCatalogMetadata;
+const [ { texts: [ textbook ] } ] = courseCatalogMetadata;
+const [ { texts: [ { ISBN } ] } ] = courseCatalogMetadata;
+
+console.log( course );
+console.log( textbooks );
+console.log( textbook );
 console.log( ISBN );
