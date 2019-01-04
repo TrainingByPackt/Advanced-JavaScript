@@ -19,7 +19,7 @@ Activity 1: Implementing Generators
 
 **Lesson Two - Asynchronous JavaScript**
 
-Exercise 16: Analyzing the Event Loop Steps
+Exercise 16: Handling Asynchronous Code
 Exercise 17: Analyzing The JavaScript Event Loop
 Exercise 18: Working with Callbacks
 Exercise 19: Creating and resolving Your First Promise
