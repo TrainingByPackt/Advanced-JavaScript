@@ -1,28 +1,17 @@
 'use strict';
 
-// You are trying to better understand why events in your program are being fired and handled. Looking at the program provided below, without running the program, write out the expected output of the program. Then, for the first 10 steps of the program, write the expected stack, queue, and heap at each step. Begin with the starting step specified below.
+function f1() { console.log( 'f1' ); }
 
-function f1() {
-  console.log( 'f1' );
-}
-
-function f2() {
-  console.log( 'f2' );
-}
+function f2() { console.log( 'f2' ); }
 
 function f3() {
   console.log( 'f3' );
   setTimeout( f5, 90 )
 }
 
-function f4() {
-  console.log( 'f4' );
-}
+function f4() { console.log( 'f4' ); }
 
-function f5() {
-  console.log( 'f5' );
-}
-
+function f5() { console.log( 'f5' ); }
 
 setTimeout( f1, 105 );
 setTimeout( f2, 15 );
