@@ -1,0 +1,11 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "description": "Lesson 3 Topic C Activity",
+  "main": "index.js",
+  "author": "Zachary Shute",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}

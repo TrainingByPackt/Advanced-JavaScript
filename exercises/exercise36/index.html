@@ -1,0 +1,52 @@
+<!--Provided basic front end for server-->
+<html>
+<head>
+  <title>Professional JavaScript - Lesson 6 - Activity B </title>
+</head>
+<body>
+  <input id="note" type="text" name="Note Text">
+  <button id="loadButton" type="button">Load</button>
+  <button id="saveButton" type="button">Save</button>
+  <script>
+    document.getElementById( 'loadButton' ).addEventListener( 'click', _load );
+    document.getElementById( 'saveButton' ).addEventListener( 'click', _save );
+
+    function _save() {
+      const note = document.getElementById( "note" );
+
+      const xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function () {
+        if ( this.readyState != 4 ) {
+          return
+        }
+        if ( this.status !== 200 ) {
+          return console.error( 'Failed to save note!' );
+        }
+      };
+
+      xhttp.open( "POST", "/save", true );
+      xhttp.setRequestHeader( 'Content-Type', 'application/json;charset=UTF-8' );
+      xhttp.send( JSON.stringify( note.value ) );
+    }
+
+    function _load() {
+      const note = document.getElementById( "note" );
+
+      const xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function () {
+        if ( this.readyState != 4 ) {
+          return
+        }
+        if ( this.status !== 200 ) {
+          return console.error( 'Failed to load note!' );
+        }
+        note.value = JSON.parse( this.response );
+      };
+
+      xhttp.open( "GET", "/load", true );
+      xhttp.send();
+    }
+
+  </script>
+</body>
+</html>

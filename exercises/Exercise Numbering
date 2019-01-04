@@ -1,0 +1,57 @@
+**Lesson One  - Introducing ECMAScript 6**
+
+Exercise 1: Implementing Block Scope
+Exercise 2- Declaring Variables
+Exercise 3- Converting Arrow Functions
+Exercise 4- Upgrading Arrow Functions
+Exercise 5- Converting to Template Literals
+Exercise 6: Template Literal Conversion
+Exercise 7:Implementing Enhanced Object Properties
+Exercise 8- Array Destructuring
+Exercise 9- Object Destructuring
+Exercise 10- Nested Destructuring
+Exercise 11- Implementing Destructuring
+Exercise 12- Creating Your Own Class
+Exercise 13: Implementing Classes
+Exercise 14: Transpiling ES6 Code
+Exercise 15- Creating a Generator
+Activity 1: Implementing Generators
+
+**Lesson Two - Asynchronous JavaScript**
+
+Exercise 16: Handling Asynchronous Code
+Exercise 17: Analyzing The JavaScript Event Loop
+Exercise 18: Working with Callbacks
+Exercise 19: Creating and resolving Your First Promise
+Exercise 20: Working With Promises
+Activity 2: Using Async/Await
+
+**Lesson Three -DOM Manipulation and Event Handling**
+
+Exercise 21: Building the HTML code for an Image
+Exercise 22: DOM Manipulation
+Exercise 23: Handling Your First Event
+Exercise 24: Handling and Delegating Events
+Activity 3: Implementing jQuery
+
+**Lesson Four -Testing JavaScript**
+
+Exercise 25: Applying Test Driven Development
+Exercise 26: Building Unit Tests
+Exercise 27: Writing Tests
+Exercise 28: Setting Up Mocha
+Activity 4: Utilizing Test Environments
+
+**Lesson Five - Functional Programming**
+
+Exercise 27: Building Imperative and Declarative Functions
+Exercise 28: Building Pure Controllers
+Activity 5: Recursive Immutability 
+
+**Lesson Six - JavaScript Ecosystem**
+
+Exercise 29: Exporting and Importing NPM Modules
+Exercise 30: Creating a Basic HTTP Server
+Exercise 31: Creating a Basic Express Server
+Exercise 32: Building a Backend With Node.js
+Activity 6: Building a Frontend with React

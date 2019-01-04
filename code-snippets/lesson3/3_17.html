@@ -1,0 +1,8 @@
+<script>
+  const element = document.getElementById( 'button' );
+element.addEventListener( 'myClick', e => {
+console.log( e.detail );
+} );
+const event = new CustomEvent( 'myClick' , { detail: 'Hello!' } );
+const canceled = element.dispatchEvent( event );
+</script>
