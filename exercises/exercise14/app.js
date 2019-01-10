@@ -1,8 +1,3 @@
-/*
-Scenario:
-Your team has written your website code in ES6 but some devices users are using do not support ES6 so you must either rewrite your entire code base in ES5 or use a transpiler to convert it to ES5. Take the ES6 code written in Activity C and transpile it into ES5 with Bable. Run the original and transpiled code and compare the output.
- */
-
 // Function 1
 const fn1 = ( a, b ) => {
   b++;
