@@ -1,7 +1,7 @@
 {
-  "name": "activity-b-nodejs-server",
+  "name": "exercise-35-nodejs-server",
   "version": "1.0.0",
-  "description": "NodeJS server for Lesson 6 Activity B",
+  "description": "NodeJS server for Lesson 6 Exercise 35",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
