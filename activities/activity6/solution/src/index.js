@@ -69,7 +69,7 @@ class Editor extends React.Component {
     return (
       <div>
         <button type="button" onClick={this.goHome.bind( this )}>Back to home</button>
-        <input type="text" name="Note Text" value={this.state.value} onChange={this.handleChange.bind( this )}/>
+        <input type="text" name="note text" value={this.state.value} onChange={this.handleChange.bind( this )}/>
         <button type="button" onClick={this.load.bind( this )}>Load</button>
         <button type="button" onClick={this.save.bind( this )}>Save</button>
       </div>
