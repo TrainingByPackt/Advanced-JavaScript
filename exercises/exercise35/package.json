@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "basic-http-server":"node ./basic-http-server.js",
-    "basic-express-server":"node ./basic-express-server.js",
+    "basic-http-server": "node ./basic-http-server.js",
+    "basic-express-server": "node ./basic-express-server.js",
     "start": "node ./index.js"
   },
   "author": "Zachary Shute",
