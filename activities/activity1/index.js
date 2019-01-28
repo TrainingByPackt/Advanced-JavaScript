@@ -7,18 +7,17 @@ You have been tasked to build a simple app that generates numbers in the Fibonac
 
 // Solution
 
-function *fibonacci() {
+function* fibonacci () {
   let n2 = 0;
   let n1 = 1;
 
   while ( true ) {
-    let next = n1 + n2;
-
-    let input = yield next;
+    let input = yield n2;
     if ( input ) {
       n1 = 1;
       n2 = 0;
     } else {
+      let next = n1 + n2;
       [ n1, n2 ] = [ next, n1 ];
     }
   }
@@ -26,15 +25,17 @@ function *fibonacci() {
 
 let gen = fibonacci();
 
-console.log(gen.next().value);
-console.log(gen.next().value);
-console.log(gen.next().value);
-console.log(gen.next().value);
-console.log(gen.next(true).value);
-console.log(gen.next().value);
-console.log(gen.next().value);
-console.log(gen.next().value);
-console.log(gen.next().value);
+console.log( gen.next().value );
+console.log( gen.next().value );
+console.log( gen.next().value );
+console.log( gen.next().value );
+console.log( gen.next().value );
+console.log( gen.next( true ).value );
+console.log( gen.next().value );
+console.log( gen.next().value );
+console.log( gen.next().value );
+console.log( gen.next().value );
+console.log( gen.next().value );
 
 /*
 Hints
