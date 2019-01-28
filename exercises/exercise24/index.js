@@ -2,7 +2,7 @@
 
 function fibonacci( i ) {
   if ( i <= 0 ) {
-    return 1;
+    return 0;
   } else if ( i === 1 ) {
     return 1;
   } else {
@@ -18,9 +18,9 @@ function test( value, expected ) {
   }
 }
 
-test( fibonacci( 0 ), 1 );
+test( fibonacci( 0 ), 0 );
 test( fibonacci( 1 ), 1 );
-test( fibonacci( 2 ), 2 );
-test( fibonacci( 5 ), 8 );
-test( fibonacci( 7 ), 21 );
-test( fibonacci( 9 ), 55 );
+test( fibonacci( 2 ), 1 );
+test( fibonacci( 5 ), 5 );
+test( fibonacci( 7 ), 13 );
+test( fibonacci( 9 ), 34 );
