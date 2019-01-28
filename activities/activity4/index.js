@@ -4,7 +4,7 @@ module.exports = { fibonacci };
 
 function fibonacci( i ) {
   if ( i <= 0 ) {
-    return 1;
+    return 0;
   } else if ( i === 1 ) {
     return 1;
   } else {

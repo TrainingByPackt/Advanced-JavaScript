@@ -5,7 +5,7 @@ const { fibonacci } = require( './index.js' );
 describe( 'fibonacci', () => {
 
   it( 'n=0 should equal 1', ( done ) => {
-    done( fibonacci( 0 ) !== 1 );
+    done( fibonacci( 0 ) !== 0 );
   } );
 
   it( 'n=1 should equal 1', ( done ) => {
@@ -13,19 +13,19 @@ describe( 'fibonacci', () => {
   } );
 
   it( 'n=2 should equal 2', ( done ) => {
-    done( fibonacci( 2 ) !== 2 );
+    done( fibonacci( 2 ) !== 1 );
   } );
 
   it( 'n=5 should equal 8', ( done ) => {
-    done( fibonacci( 5 ) !== 8 );
+    done( fibonacci( 5 ) !== 5 );
   } );
 
   it( 'n=7 should equal 21', ( done ) => {
-    done( fibonacci( 7 ) !== 21 );
+    done( fibonacci( 7 ) !== 13 );
   } );
 
   it( 'n=9 should equal 55', ( done ) => {
-    done( fibonacci( 9 ) !== 55 );
+    done( fibonacci( 9 ) !== 34 );
   } );
 
 } );
